@@ -6,7 +6,7 @@
  * Alphabet*/
 int main (void)
 {
-	char alphabet[] = { 'a' ,'b' ,'c' ,'d' ,'e' ,'f'};
+	char alphabet[] = { '1','2','3','4','5','6','7','8','9','a' ,'b' ,'c' ,'d' ,'e' ,'f'};
 	int i;
 	for (i = 0; 0 <= 15; i++)
 	{
