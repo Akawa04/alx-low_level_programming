@@ -1,9 +1,10 @@
 #include <stdio.h>
-
 /**
- * main
- * hexadecimal caracters display.
- * Return: Always 0 is success.
+ * main - Entry point
+ *
+ * Description: This program prints the hexadecimal characters from 0 to f.
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
