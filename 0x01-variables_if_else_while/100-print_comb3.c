@@ -16,8 +16,8 @@ int main(void)
 		{
 			if (a < b)
 			{
-				putchar('0' + a);
-				putchar('0' + b);
+				putchar(a);
+				putchar(b);
 				if (a != 8 || b != 9)
 				{
 					putchar(',');
@@ -26,6 +26,6 @@ int main(void)
 			}
 		}
 	}
-	putchar(' ');
+	putchar('\n');
 	return (0);
 }
