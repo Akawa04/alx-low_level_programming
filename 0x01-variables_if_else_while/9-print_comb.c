@@ -11,11 +11,19 @@ int main (void)
 	do
 	{
 		putchar(alphabet[i]);
-		putchar(',');
+		
+		if (i != 10)
+		{
+			putchar(',');
+		}
+		
 		putchar(' ');
+		
 		i++;
 	}
 	while (i < 10);
+
 	putchar('\n');
+
 	return (0);
 }
