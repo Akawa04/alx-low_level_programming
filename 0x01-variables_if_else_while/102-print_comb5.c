@@ -14,7 +14,7 @@ int main(void)
 	{
 		for (b = 0; b < 10; b++)
 		{
-			if (a != 0 && b != 0)
+			if (a != 0 || b != 0)
 			{
 				putchar('0');
 				putchar('0');
