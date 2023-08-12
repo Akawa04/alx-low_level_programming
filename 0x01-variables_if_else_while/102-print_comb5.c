@@ -16,15 +16,15 @@ int main(void)
 		{
 			for (c = 0; c < 10; c++)
 			{
-				for (c = 0; c < 10; c++)
+				for (d = 0; d < 10; d++)
 				{
 					if (a != 0 || b != 0)
 					{
-						putchar('0');
-						putchar('0');
-						putchar(' ');
 						putchar('0' + a);
 						putchar('0' + b);
+						putchar(' ');
+						putchar('0' + c);
+						putchar('0' + d);
 						if (a != 9 || b != 9)
 						{
 							putchar(',');
