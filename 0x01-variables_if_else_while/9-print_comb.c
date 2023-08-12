@@ -12,7 +12,7 @@ int main (void)
 	{
 		putchar(alphabet[i]);
 		
-		if (i != 10)
+		if (i != 9)
 		{
 			putchar(',');
 		}
