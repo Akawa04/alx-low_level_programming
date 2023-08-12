@@ -14,7 +14,7 @@ int main (void)
 
 	for (i = 0; i < 11; i++)
 	{
-		printf("%c", num[i])
+		printf("%c", num[i]);
 	}
 	return (0);
 }
