@@ -3,7 +3,17 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/* more headers goes there */
+
+/**
+ * main - Entry point
+ *
+ * Description: This program generates a random number and then determines
+ * the last digit of that number. It then prints whether the last digit is
+ * greater than 5, equal to 0, or less than 6 and not 0.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n, rest;
