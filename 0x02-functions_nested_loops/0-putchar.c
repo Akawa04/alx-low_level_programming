@@ -1,7 +1,17 @@
-#include<stdio.h>
+#include <stdio.h>
+#include "main.h"
+/**
+ *
+ * 
+ */
 
 int main(void)
 {
-	printf("_putchar");
+	laff();
 	return(0);
+}
+
+void laff()
+{
+	printf("_putchar\n");
 }
