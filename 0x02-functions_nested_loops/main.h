@@ -2,7 +2,7 @@
 #define MAIN_H
 
 void laff();
-char _putchar();
+void _putchar();
 void print_alphabet(void);
 #endif
 
