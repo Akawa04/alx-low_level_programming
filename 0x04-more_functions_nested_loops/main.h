@@ -1,6 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
-
+void print_most_numbers(void);
 int _isupper(char c);
 int _isdigit(int c);
 int mul(int a, int b);
