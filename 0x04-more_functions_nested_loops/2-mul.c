@@ -5,8 +5,9 @@
  * @a: The first integer
  * @b: The second integer
  *
- * Return: The result of the multiplication
+ * Return: always a * b success
  */
+
 int mul(int a, int b)
 {
 	return (a * b);
