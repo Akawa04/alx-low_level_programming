@@ -12,10 +12,10 @@ void _puts(char *str)
 {
     while (*str != '\0')
     {
-        putchar(*str); // Print the current character
-        str++;         // Move the pointer to the next character
+        putchar(*str);
+	str++;
     }
 
-    putchar('\n'); // Print a new line character
+    putchar('\n');
 }
 
