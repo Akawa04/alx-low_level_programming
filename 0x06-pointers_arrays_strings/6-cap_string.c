@@ -4,7 +4,8 @@
 
 bool is_separator(char c) {
     char separators[] = " \t\n,;.!?\"(){}";
-    for (int i = 0; separators[i] != '\0'; i++) {
+    int i;
+    for (i = 0; separators[i] != '\0'; i++) {
         if (separators[i] == c) {
             return true;
         }
@@ -13,9 +14,10 @@ bool is_separator(char c) {
 }
 
 char *cap_string(char *str) {
-    bool new_word = true;
-
-    for (int i = 0; str[i] != '\0'; i++) {
+   
+       	bool new_word = true;
+	int i;
+    for ( i = 0; str[i] != '\0'; i++) {
         if (is_separator(str[i])) {
             new_word = true;
         } else if (new_word && islower(str[i])) {
