@@ -2,6 +2,10 @@
 #include <string.h>
 #include "main.h"
 
+/**
+ * print_chessboard - Prints a visual representation of a chessboard.
+ * @a: The 2D array representing the chessboard.
+ */
 void print_chessboard(char (*a)[8]) {
     int row, col;
 
